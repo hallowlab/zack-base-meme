@@ -5,7 +5,7 @@ var cors = require("cors");
 const app = express();
 const port = process.env.PORT || 8081;
 
-// File will go here
+// File will go heres
 app.use(
   cors({
     origin: "*", // This allows all origins
